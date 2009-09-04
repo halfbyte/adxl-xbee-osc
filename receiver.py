@@ -26,6 +26,5 @@ while 1:
         
         if i % 100 == 0:
           osc.sendMsg("/voltage/%d" % (xb.address_16), [voltage])
-          print "voltage: %f" % (voltage)
         
         osc.sendMsg("/accxyz/%d" % (xb.address_16), [x,y,z])
