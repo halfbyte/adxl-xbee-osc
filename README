@@ -1,0 +1,14 @@
+ADXL > XBEE > OSC
+-----------------
+
+This is specialized code to read out an Xbee AD-Input to sample an ADXL breakout board from Sparkfun.
+
+The acceleration data then is converted from XBee-Packets to OSC messages (to use it in PureData for example)
+
+Additionally, every 100 samples, a message is sent containing the current battery level of the Xbee/ADXL combo.
+
+Hardware schematics and more information probably coming soon.
+
+Hardware and inital python work: Alexander Weber aka tinkerlog.com
+
+Idea, OSC code and application: Jan 'halfbyte' Krutisch
